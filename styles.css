@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(180deg, #1875E9 0%, #041832 48.44%, #01080E 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: url('assets/images/Background.png');
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.pomodoro{
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem;
+}
+.description{
+    color: aliceblue;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 100;
+    width: 400px;
+}
+.strong-description{
+    color: aliceblue;
+    font-weight: bold;
+}
+.control-pomodoro{
+    background: rgba(20, 68, 128, 0.3);
+    border: 2px solid #144480;
+    border-radius: 20px;
+    width: 400px ;
+}
+.container-pomodoro{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin: 20px;
+}
